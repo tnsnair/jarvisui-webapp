@@ -1,0 +1,20 @@
+﻿
+.panel-body-license {
+    position: relative;
+    padding: 25px;
+}
+
+    .panel-body-license .btn-toolbar {
+        position: absolute;
+        bottom: 15px;
+    }
+
+.licence {
+    min-height: 420px;
+}
+
+@media (min-width : 768px) and (max-width : 1024px) and (orientation : landscape) {
+    .panel-license-disclaimer {
+        min-height: 535px;
+    }
+}

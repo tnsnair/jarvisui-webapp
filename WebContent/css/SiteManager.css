@@ -1,0 +1,107 @@
+﻿
+/*----Panels----*/
+
+.site-manager-panel {
+    min-height: 525px;
+}
+
+.site-manager-panel-heading {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.sub-panel {
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+.sub-panel-title {
+    text-align: center;
+    color: #2C95DD;
+}
+
+.sub-panel-body {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.sub-panel .form-group {
+    margin-bottom: 11px;
+}
+
+/*----Buttons----*/
+
+.add-site {
+    background-color: #FFFFCC;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: #111;
+    border-color: #777777;
+}
+
+/*----Modals----*/
+
+.wiring-label {
+    margin-right: 20px;
+}
+
+.summary-align {
+    float: right;
+}
+
+.summary-table-width {
+    width: 260px;
+}
+
+/*----Tables----*/
+
+th.site-list-header {
+    background: #009DD9;
+    position: center;
+    text-align: center;
+    color: #fff;
+}
+
+.table {
+    border: 1px solid #000;
+}
+
+.table-bordered > thead > tr > th {
+    border: 1px solid #000;
+}
+
+.table-bordered > tbody > tr > td {
+    border: 1px solid #000;
+}
+
+@media (max-width: 767px) {
+    .table-responsive {
+        border: 1px solid #000;
+    }
+}
+
+.table-nowrap td, th {
+    white-space: nowrap;
+}
+
+.colwidth1 {
+    min-width: 20%;
+}
+
+.colwidth2 {
+    min-width: 15%;
+}
+
+.colwidth3 {
+    min-width: 10%;
+}
+
+.colwidth4 {
+    min-width: 5%;
+}
+
+.colwidth5 {
+    min-width: 3%;
+}

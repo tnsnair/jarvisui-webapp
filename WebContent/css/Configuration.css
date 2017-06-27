@@ -1,0 +1,63 @@
+﻿
+@media screen and (max-width: 767px) {
+    .table-responsive {
+        border: 0px;
+    }
+}
+
+.panel-configuration {
+    min-height: 525px;
+}
+
+th.configuration-list-header {
+    background: #009DD9;
+    position: center;
+    text-align: center;
+    color: #fff;
+}
+
+th.config-list-header-width {
+    width: 65px;
+}
+
+.panel-configuration > .panel-heading {
+    padding: 3px 20px 15px 20px;
+}
+
+.panel-body {
+    padding: 12px;
+}
+
+.modal-header {
+    background: #2C95DD;
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.close-icon {
+    opacity: 5;
+    color: #fff;
+}
+
+.confirm-delete-dialog {
+    position: center;
+}
+
+.table {
+    border: 1px solid #000 !important;
+    min-width: 200px;
+    max-width: 600px;
+}
+
+.table-bordered > thead > tr > th {
+    border: 1px solid #000;
+}
+
+.table-bordered > tbody > tr > td {
+    border: 1px solid #000;
+}
+
+.margin {
+    margin: 10px;
+}

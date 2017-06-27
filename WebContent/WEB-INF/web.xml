@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>jarvis-webapp</display-name>
+ 
+ <!-- 
+  <servlet>
+  <servlet-name>LoginServlet</servlet-name>
+  <servlet-class>com.jarvis.filter.LoginServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>LoginServlet</servlet-name>
+  <url-pattern>/login</url-pattern>
+</servlet-mapping>
+-->
+  <filter>
+    <filter-name>AuthenticationFilter</filter-name>
+    <filter-class>com.jarvis.filter.AuthenticationFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>AuthenticationFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+    <dispatcher>REQUEST</dispatcher>
+  </filter-mapping>
+</web-app>

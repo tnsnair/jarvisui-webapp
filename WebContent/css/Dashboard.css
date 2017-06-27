@@ -1,0 +1,335 @@
+﻿
+.jstree-node {
+    /*font-size: 30px;
+    height: 40px;
+    line-height: 50px;*/
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+.panel-body {
+    padding: 5px;
+    padding-bottom: 0;
+}
+
+#topContainer { /*TODO: Remove if unused*/
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+}
+
+.page-content {
+    background-color: #F3F4F8;
+    margin-top: 10px;
+    padding: 40px;
+    min-height: 600px;
+}
+
+.count-badge {
+    background-color: #Ff5300;
+    padding: 2px 5px;
+    margin-right: 2px;
+    margin-top: 3px;
+    position: relative;
+    z-index: 10;
+}
+
+.paddLeft-2 {
+    padding: 2px;
+}
+
+.noPaddingMarging {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+#searchResult {
+    z-index: 5000;
+    opacity: 1;
+    position: absolute;
+    top: 30px;
+    background-color: black;
+    color: white;
+}
+
+
+/*#accordion2 .panel-title {
+    position: relative;
+    margin-bottom: 0px;
+}*/
+
+
+#config-list {
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 310px;
+}
+
+.button-toolbar {
+    display: inline-block;
+    margin: 2px;
+    vertical-align: top;
+}
+
+.BuildConfigData {
+    /*width: 310px;*/
+    padding: 2px;
+}
+
+.panel-configured-tree {
+    min-height: 500px;
+}
+
+    .panel-configured-tree .panel-body {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+#pnlEnvironmentData {
+    min-height: 500px;
+}
+
+#customerName {
+    background-color: #d9d9d9;
+    margin-bottom: 1px;
+    padding: 6px;
+    padding-left: 15px;
+}
+
+
+/*Toolbar to edit configuration*/
+.config-manager {
+    margin: 4px;
+}
+
+#config-manager-container {
+    background-color: #d9d9d9;
+    text-align: right;
+}
+
+.left-right-border {
+    border-right: 1px solid #d4d4d4;
+    border-left: 1px solid #d4d4d4;
+    min-height: 180px;
+}
+
+#editConfig, #custName {
+    background-color: lightgrey;
+    margin-left: -19px;
+    margin-top: -8px;
+    margin-right: -19px;
+    margin-bottom: 10px;
+    height: 25px;
+}
+
+/*#editConfig .btn-toolbar {
+        margin-right: 10px;
+    }*/
+
+#expand_all > h4:first-child > i {
+    margin-right: 6px;
+}
+
+.collapsible > .panel-heading.active {
+    background-color: #2183CB;
+}
+
+.option-section {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.panel-group .panel-heading {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.panel-group .panel-body {
+    padding: 10px;
+}
+
+.fixed-fluid {
+    width: 100%;
+}
+
+    .fixed-fluid .col-1 {
+        float: left;
+        width: 310px;
+        margin-left: -100%;
+    }
+
+    .fixed-fluid .col-2-wrapper {
+        float: left;
+        width: 100%;
+    }
+
+    .fixed-fluid .col-2 {
+        margin-left: 0px; /*311px*/
+        min-width: 100%;
+    }
+
+/* Mobiles e.g. iPhones,Blackberry etc. ----------- */
+@media only screen and (max-width : 568px) {
+    /* Styles */
+    .fixed-fluid .col-2 {
+        width: 440px;
+        margin-top: 506px;
+        margin-left: 0%;
+    }
+
+    .fixed-fluid .col-1 {
+        width: 440px;
+        margin-left: -100%;
+    }
+
+    .parent-container {
+        width: 450px;
+    }
+
+    .btn-transition-down {
+        float: left;
+        margin-top: 38px;
+        margin-left: -310px;
+    }
+
+    .visible-mbl-min-width {
+        display: block !important;
+    }
+}
+
+/* Tablets whose width upto 1305px----------- */
+@media only screen and (min-device-width : 1106px ) and (max-width: 1305px) {
+    .left-right-border {
+        border-right: none;
+        border-left: 1px solid #d4d4d4;
+        min-height: 180px;
+    }
+
+    /* Tablets whose max width upto 1005px ----------- */
+    @media only screen and (max-width : 1105px ) and (min-device-width: 9px) {
+        .left-right-border {
+            border-right: none;
+            border-left: none;
+            min-height: 180px;
+        }
+    }
+}
+
+@media only screen and (min-device-width : 568px ) and (max-width: 768px) {
+    .section-container {
+        width: 800px;
+        background-color: #e6e6e6;
+    }
+
+    @media only screen and (max-width : 567px ) and (min-device-width: 9px) {
+        .section-container {
+            width: 468px;
+            background-color: #e6e6e6;
+        }
+    }
+}
+
+.table-no-border > tbody > tr:first-child > td {
+    border-top: none;
+}
+
+.container-closed {
+    overflow: hidden;
+    height: 250px;
+    border-bottom: 1px solid #337ab7;
+    box-shadow: 0 4px 4px -3px #999;
+    -moz-border-radius: 14px;
+    -webkit-border-radius: 14px;
+    border-radius: 14px;
+    outline: none;
+}
+
+.fixed-fluid .col-2-up {
+    float: left;
+    width: 440px;
+    margin-top: -253px;
+    margin-left: 0%;
+}
+
+.truncate {
+    width: 168px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.dashboard-dropdown {
+    height:28px;
+    width:150px; 
+    margin-bottom:10px;
+}
+/****************************/
+.blink {   
+  animation-duration: 400ms;
+  animation-name: blink;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
+/************** Change Blink colors**************/
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+    color: pink;
+  }
+
+  25% {
+    color: green;
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+    color: blue;
+  }
+
+  75% {
+   opacity: 0;
+   color: orange;
+ }
+
+ 100% {
+   opacity: 1;
+   color: pink;
+ }
+}
+
+/************** Change Fade efect**************/
+.blink_toggle {
+  animation-duration: 1000ms;
+  animation-name: tgle;
+  animation-iteration-count: infinite;
+}
+
+@keyframes tgle {
+  0% {
+    opacity: 0;
+  }
+
+  49.99% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+
+  99.99% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/**********************Newly Added**************************/
+
+
+

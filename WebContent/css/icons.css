@@ -1,0 +1,85 @@
+﻿
+.icon {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-button {
+    cursor: pointer;
+}
+
+.edit-icon {
+    background-image: url('../Images/edit_ico.png');
+    height: 20px;
+}
+
+.duplicate-icon {
+    background-image: url('../Images/duplicate_ico.png');
+    height: 20px;
+}
+
+.delete-icon {
+    background-image: url('../Images/delete_ico.png');
+    height: 20px;
+}
+
+.download-icon {
+    background-image: url('../Images/download_ico.png');
+    height: 20px;
+}
+
+.zoom-in-icon {
+    background-image: url('../Images/zoom_in_ico.png');
+    height: 20px;
+}
+
+.zoom-out-icon {
+    background-image: url('../Images/zoom_out_ico.png');
+    height: 20px;
+}
+
+.undo-icon {
+    background-image: url('../Images/undo_ico.png');
+    height: 20px;
+}
+
+.details-icon {
+    background-image: url('../Images/info_ico.png');
+    height: 20px;
+}
+
+.stencil-icon {
+    background-image: url('../Images/stencil_ico.png');
+    height: 20px;
+}
+
+.dashboard-icon {
+    background-image: url("../Images/Home_normal.png");
+}
+
+.products-icon {
+    background-image: url("../Images/products_normal.png");
+}
+
+.site-manager-icon {
+    background-image: url("../Images/sitemnr_nor.png");
+}
+
+.config-manager-icon {
+    background-image: url("../Images/conf_nor.png");
+}
+
+.help-icon {
+    background-image: url("../Images/help_nor.png");
+}
+
+.search-icon {
+    background-image: url("../Images/search.png");
+}
+
+.chat-icon {
+    background-image: url("../Images/chat-icon.png");
+}
+.close-icon {
+     background-image: url("../Images/close.png");
+}
