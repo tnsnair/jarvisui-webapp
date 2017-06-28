@@ -34,7 +34,7 @@ public class AuthenticationFilter implements Filter {
 
 		System.out.println("Called URI: " + uri);
 
-		if (session == null && !(uri.endsWith("html") || uri.endsWith("login") || (uri.contains("resources")))) {
+		if (session == null && !(uri.endsWith("html") || uri.endsWith("login") || (uri.contains("css")))) {
 			System.out.println("session is null and uri is: " + uri);
 			servletResponse.sendRedirect("login.html");
 		} else {
